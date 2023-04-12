@@ -1,8 +1,12 @@
 import styled from "styled-components";
+import background from "../../assets/img/bg.jpg"
 
 export const InfoSection = styled.section`
 	min-height: 36.25rem;
-	background-color: var(--brand2);
+	background-image: url(${background});
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	display: flex;
 	justify-content: center;
 	align-items: center;
